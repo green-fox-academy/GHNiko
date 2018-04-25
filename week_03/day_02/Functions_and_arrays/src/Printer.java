@@ -1,17 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// I used int variables (instead of String ones) for some mysterious reason
+
 public class Printer {
     public static void main(String[] args) {
-        // - Create a function called `printer`
-        //   which prints the input String parameters
-        // - It can have any number of parameters
-
-        // Examples
-        // printer("first")
-        // printer("first", "second")
-        // printer("first", "second", "third", "fourh")
-        // ...
 
         printer();
     }
