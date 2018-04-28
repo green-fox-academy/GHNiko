@@ -5,6 +5,5 @@ public class AnimalsAndLegs {
         // The second represents the number of pigs owned by the farmer
         // It should print how many legs all the animals have
 
-
     }
 }

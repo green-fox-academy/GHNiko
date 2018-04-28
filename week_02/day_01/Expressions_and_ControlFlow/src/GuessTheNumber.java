@@ -8,6 +8,5 @@ public class GuessTheNumber {
         // The stried number is lower
         // You found the number: 8
 
-
     }
 }

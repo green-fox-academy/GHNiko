@@ -10,6 +10,5 @@ public class Triangle {
         //
         // The triangle should have as many lines as the number was
 
-
     }
 }
