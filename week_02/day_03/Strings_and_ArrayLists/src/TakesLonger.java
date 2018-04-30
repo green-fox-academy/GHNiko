@@ -7,7 +7,6 @@ public class TakesLonger {
         String missingWords = "always takes longer than ";
         StringBuilder addWords = new StringBuilder(quote);
         addWords.insert(21, missingWords);
-        addWords.insert()
 
         System.out.println(addWords);
     }
