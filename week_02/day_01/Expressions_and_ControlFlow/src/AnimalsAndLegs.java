@@ -1,9 +1,17 @@
+import java.util.Scanner;
+
 public class AnimalsAndLegs {
     public static void main(String[] args) {
-        // Write a program that asks for two integers
-        // The first represents the number of chickens the farmer has
-        // The second represents the number of pigs owned by the farmer
-        // It should print how many legs all the animals have
 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter an integer: ");
+        int numOfChickens = scanner.nextInt();
+
+        System.out.println("Enter another integer: ");
+        int numOfPiggies = scanner.nextInt();
+
+        int legs = numOfChickens * 2 + numOfPiggies * 4;
+        System.out.printf("The %d chickens and the %d piggies have %d legs in total.", numOfChickens, numOfPiggies, legs);
     }
 }

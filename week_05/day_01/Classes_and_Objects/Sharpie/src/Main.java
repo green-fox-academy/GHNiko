@@ -10,6 +10,5 @@ public class Main {
         Sharpie sharpie1 = new Sharpie();
         sharpie1.color = "black";
         System.out.println(sharpie1.color);
-
     }
 }
